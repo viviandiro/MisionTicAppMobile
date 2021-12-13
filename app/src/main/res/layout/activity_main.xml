@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgProduc"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/productos" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvProdName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Materiales" />
+
+            <TextView
+                android:id="@+id/tvProdDescrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Todo lo de construccion" />
+
+            <TextView
+                android:id="@+id/tvProdPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Precios" />
+
+            <EditText
+                android:id="@+id/editProd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnProd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Productos" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgServi"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/servicios" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSerName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Herramientas" />
+
+            <TextView
+                android:id="@+id/tvSerDescrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Asesoria en construccion" />
+
+            <TextView
+                android:id="@+id/tvSerPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cotizacion" />
+
+            <EditText
+                android:id="@+id/editServi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnServi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Servicios" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgSucur"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/sucursal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSucurName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nombre" />
+
+            <TextView
+                android:id="@+id/tvSucurDescrip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Direccion" />
+
+            <TextView
+                android:id="@+id/tvSucurPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Horario" />
+
+            <EditText
+                android:id="@+id/editSucur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btnSucur"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sucursales" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
